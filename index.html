@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>坐下，勇者</title>
+<style>
+  :root{ --bg:#14121a; --panel:#1e1b26; --line:#38323f; --ink:#ece7dd; --dim:#9b93a6; --hot:#e8a13a; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:"Noto Sans TC","PingFang TC",system-ui,sans-serif;
+       -webkit-font-smoothing:antialiased;line-height:1.6}
+  .wrap{max-width:760px;margin:0 auto;padding-block:48px;padding-left:20px;padding-right:20px}
+  h1{font-size:24px;margin:0 0 6px;letter-spacing:.04em}
+  .sub{color:var(--dim);font-size:14px;margin:0 0 36px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+        padding:20px;margin-bottom:16px}
+  .card h2{font-size:19px;margin:0 0 4px}
+  .tag{display:inline-block;font-size:12px;color:var(--bg);background:var(--hot);
+       border-radius:4px;padding:1px 7px;margin-left:8px;vertical-align:2px}
+  .card p{margin:8px 0 16px;color:var(--dim);font-size:14px}
+  .btns{display:flex;gap:10px;flex-wrap:wrap}
+  a.btn{display:inline-block;text-decoration:none;font-size:14px;
+        padding:9px 18px;border-radius:7px;border:1px solid var(--line);
+        color:var(--ink);background:#2a2532}
+  a.btn.main{background:var(--hot);color:#221a0c;border-color:var(--hot);font-weight:700}
+  footer{color:var(--dim);font-size:12px;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>坐下，勇者</h1>
+  <p class="sub">一座塔、三章、四十分鐘的卡牌爬塔。手機直接開網頁就能玩，橫著拿。</p>
+
+  <div class="card">
+    <h2>試玩版・第一章</h2>
+    <p>桌子對面有個地下城主，他會一邊看你打一邊講話，偶爾插手。
+       試玩版是第一章，打倒紅魔就結束，大概二十分鐘。</p>
+    <div class="btns">
+      <a class="btn main" href="demo/">開始玩</a>
+      <a class="btn" href="apk/spire.apk">下載 Android 版</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>同一把槍<span class="tag">原型</span></h2>
+    <p>你跟那個地下城主坐在同一張桌子前，輪流面對蓋著的怪。
+       他會把怪推給你，順便說一句話——那句話不一定是真的。看他的臉，決定接下還是退回。</p>
+    <div class="btns">
+      <a class="btn main" href="gun/">開始玩</a>
+      <a class="btn" href="apk/spire-gun.apk">下載 Android 版</a>
+    </div>
+  </div>
+
+  <footer>測試用，隨時會換。有問題直接跟 Cook 說。</footer>
+</div>
+</body>
+</html>
